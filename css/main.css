@@ -101,6 +101,8 @@ header nav ul li a{
 }
 .main-image img {
 	width: 100%;
+	border-left: 3px solid #77a466;
+	border-right: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
 }
 
@@ -118,12 +120,18 @@ header nav ul li a{
 	line-height: 25px;
 }
 
+.bottom-section {
+	border-top: 3px solid #eee;
+	border-left: 3px solid #eee;
+	border-right: 3px solid #eee;
+	width: 100%;
+}
+
 .section-one,
 .section-two,
 .section-three {
 	width: 33%;
 	height: auto;
-	border-top: 1px solid #eee;
 }
 
 .section-one h3 {
@@ -152,7 +160,7 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 16px;
-	line-height: 21px;
+	line-height: 1;
 }
 
 .address {
@@ -169,6 +177,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row nowrap;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
