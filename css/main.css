@@ -16,7 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: column nowrap;
+	flex-flow: row wrap;
 }
 
 h1,
@@ -61,7 +61,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 30px 0;
 }
 header nav ul {
 	margin: 0;
@@ -87,6 +87,13 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row nowrap;
+}
+
+.top-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
 }
 
 .main-image {
