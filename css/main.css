@@ -36,6 +36,9 @@ h2 {
 h3 {
 	font-size: 12px;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 p {
@@ -55,7 +58,9 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 35px 0;
+	display: flex;
+
 }
 header h1 span {
 	color: #77a466;
