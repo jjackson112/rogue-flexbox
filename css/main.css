@@ -26,8 +26,9 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 h1 {
-	font-size: 30px;
+	font-size: 2em;
 }
 h2 {
 	font-size: 18px;
@@ -45,7 +46,6 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -102,13 +102,12 @@ header nav ul li a{
 }
 .main-image img {
 	width: 100%;
-	border-left: 3px solid #77a466;
-	border-right: 3px solid #77a466;
-	border-bottom: 3px solid #77a466;
+	border: 3px solid #77a466;
 }
 
 .main-title {
 	height: auto;
+	padding: 35px 0;
 }
 .main-title h2 {
 	text-align: left;
@@ -179,6 +178,7 @@ footer {
 	align-items: center;
 	flex-flow: row nowrap;
 	width: 100%;
+	padding: 20px 0;
 }
 footer span {
 	font-family: 'Galada', cursive;
