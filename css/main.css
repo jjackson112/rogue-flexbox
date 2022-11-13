@@ -57,11 +57,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	text-align: center;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
-	padding: 35px 0;
+	padding: 35px 20px 20px 20px;
+	width: 100%;
+	border-bottom: 3px solid #77a466; 
 }
 
 header h1 span {
@@ -70,23 +74,25 @@ header h1 span {
 
 header nav {
 	padding: 20px 0;
-	display: flex;
-	justify-content: center;
-	flex-direction: row nowrap;
+	width: 100%;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
-	padding: 0 10px;
+	font-size: 16px;
+	line-height: 2;
+	padding: 10px 0;
 	display: inline;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -201,6 +207,7 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 14px;
+	padding: 0 3px;
 }
 
 /*Tablet styles*/
@@ -212,7 +219,7 @@ h1 {
 }
 
 header nav ul li {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 h2 {
@@ -255,18 +262,33 @@ footer span {
 
 /*Desktop styles*/
 
-@media (min-width: 1164px) {
+@media (min-width: 1200px) {
 
-	h1 {
-		font-size: 2.4em;
+	header {
+	justify-content: space-between;
+	padding: 20px 0;
+	}
+
+	header h1 {
+	border-bottom: none; 
+	font-size: 2em;
+	text-align: left;
+	width: 40%;
+	padding: 0;
 	}
 
 	header nav {
-		padding: 20px 15px;
+		width: 50%;
 	}
-	
+
+	header nav ul {
+        display: flex;
+        justify-content: space-between;
+		flex-direction: row;
+    }
+
 	header nav ul li {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	
 	h2 {
